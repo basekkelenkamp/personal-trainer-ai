@@ -10,3 +10,7 @@ That is all you need.
 ## Try it
 
 https://stud.hosted.hr.nl/0986648/personal-trainer-ai/
+
+## Train
+
+If you would like to train your model yourself, use the folder "train" to get your landmarks, and copy them into the file called "model".
