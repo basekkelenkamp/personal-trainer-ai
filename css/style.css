@@ -1,0 +1,121 @@
+body {
+    font-size: 1vw;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #b2d4d8;
+    /* centered column with flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+video {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    display:none;
+    width: auto;
+    height: auto;
+}
+
+canvas {
+    width: 640px;
+    height: 360px;
+}
+
+button {
+    background-color: #4caf54; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2vw;
+  
+}
+
+#buttons {
+    visibility: hidden;
+    text-align: center;
+}
+
+p {
+    background-color: rgba(233, 207, 124, 0.438);
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+button#start {
+    opacity: 0.25;
+}
+
+#loading {
+    font-size: 2vw;
+    font-style: italic;
+}
+
+#trainer-text {
+    background-color: rgba(233, 207, 124, 1);
+    font-size: 2vw;
+    font-style: bold;
+    padding: 50px;
+    border-radius: 20px;
+    border: solid;
+}
+
+#webcam-text {
+    visibility: hidden;
+    position: absolute;
+    color: azure;
+    background-color: rgba(150, 143, 82, 0.8);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#counter {
+    visibility: hidden;
+    position: absolute;
+    align-items: flex-start;
+    margin-right: 75vw;
+    background-color: rgb(240, 230, 140);
+    padding: 2vw;
+}
+
+#goal {
+    visibility: hidden;
+    position: absolute;
+    align-items: flex-start;
+    margin-left: 70vw;
+    background-color: rgb(240, 230, 140);
+    padding: 2vw;
+    font-size: 1vw;
+}
+
+#show-goal {
+    font-size: 2vw;
+}
+
+
+li {
+    list-style-type: none;
+    font-size: 10vw;
+}
+
+h5 {
+    font-style: italic;
+}
+
+#congrats {
+    position: absolute;
+    font-size: 5vw;
+    color: white;
+    opacity: 75%;
+    text-shadow: 0.5vw 0.5vw #000000;
+    margin-top: 600px;
+}
