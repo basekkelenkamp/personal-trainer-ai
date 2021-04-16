@@ -124,7 +124,7 @@ function difficulty(id) {
     //Check difficulty
     switch (gameState.difficulty) {
         case "beginner":
-            gameState.setAmount = 4
+            gameState.setAmount = 15
             beginnerButton.style.opacity = "1"
             intermediateButton.style.opacity = "0.25"
             advancedButton.style.opacity = "0.25"
