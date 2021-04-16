@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #b2d4d8;
+    /* centered column with flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+video {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    display:none;
+    width: auto;
+    height: auto;
+}
+
+canvas {
+    width: 640px;
+    height: 360px;
+}
+
+button {
+    background-color: #4caf54; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+}
+
+.buttons {
+    display:inline-block;
+    text-align: center;
+}
+
+p {
+    background-color: rgba(233, 207, 124, 0.438);
+    padding: 20px;
+    text-align: center;
+
+}
